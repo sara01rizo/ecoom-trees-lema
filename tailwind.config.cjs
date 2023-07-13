@@ -22,6 +22,8 @@ module.exports = {
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        caprasimo: ["Caprasimo", "cursive"],
+        faunaone: ['Fauna One', "serif"]
       },
       content: {
         evolvetext: "url('./assets/EvolveText.png')",
