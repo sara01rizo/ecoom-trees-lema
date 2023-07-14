@@ -12,4 +12,3 @@
 [TypeScript](https://www.typescriptlang.org/)!
 [React](https://react.dev/)
 [Tailwindcss](https://tailwindcss.com/)
-[Vite](https://vitejs.dev/)
