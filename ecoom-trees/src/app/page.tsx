@@ -1,3 +1,4 @@
+"use client"
 import Navbar from "@/app/scenes/navbar";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/app/shared/types";
