@@ -38,3 +38,31 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.logo {
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  z-index: 0;
+  position: realtive;
+  box-shadow: 10px 8px 10px 5px #06ACB4;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  inset: -5px;
+  transform: translate(10px, 8px);
+  filter: blur(10px);
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  /* Inherit all the decorations defined on the main element */
+  background: inherit;
+  border: inherit;
+  box-shadow: inherit;
+}
