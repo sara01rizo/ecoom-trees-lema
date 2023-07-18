@@ -1,5 +1,6 @@
 "use client"
 import Navbar from "@/app/scenes/navbar";
+import Home from "@/app/scenes/home";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/app/shared/types";
 
@@ -28,6 +29,7 @@ function Home() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
+      <Home setSelectedPage={setSelectedPage} />
     </div>
   );
 }
