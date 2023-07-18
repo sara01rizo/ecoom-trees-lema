@@ -1,14 +1,15 @@
 import useMediaQuery from "@/app/hooks/useMediaQuery";
 import { SelectedPage } from "@/app/shared/types";
 import ActionButton from "@/app/shared/ActionButton";
-import HomePageText from "@/assets/HomePageText.png";
-import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.png";
-import SponsorForbes from "@/assets/SponsorForbes.png";
-import SponsorFortune from "@/assets/SponsorFortune.png";
+import Logo from "@/app/assets/Logo.png";
+// import HomePageGraphic from "@/assets/HomePageGraphic.png";
+import AbstractWaves from "@/app/assets/AbstractWaves.png";
+// import SponsorForbes from "@/assets/SponsorForbes.png";
+// import SponsorFortune from "@/assets/SponsorFortune.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 import Image from "next/image";
+// import { loadGetInitialProps } from "next/dist/shared/lib/utils";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -40,14 +41,14 @@ const Home = ({ setSelectedPage }: Props) => {
           >
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                <Image alt="home-page-text" src={HomePageText} />
+                <Image alt="Logo" src={Logo} />
               </div>
             </div>
 
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+              First Ecoom Trees. Incredible Non Profit Trees World. Dimension Class
+              Territory to get the Tree Spirit That you should Dream of.. Get Your Tree
+              come True.
             </p>
           </motion.div>
 
@@ -81,7 +82,7 @@ const Home = ({ setSelectedPage }: Props) => {
           className="flex basis-3/5 justify-center md:z-10
               md:ml-40 md:mt-16 md:justify-items-end"
         >
-          <Image alt="home-pageGraphic" src={HomePageGraphic} />
+          <Image alt="Logo" src={Logo} />
         </div>
       </motion.div>
 
@@ -90,9 +91,9 @@ const Home = ({ setSelectedPage }: Props) => {
         <div className="h-[150px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-5/6">
             <div className="flex w-3/5 items-center justify-between gap-8">
-              <Image alt="redbull-sponsor" src={SponsorRedBull} />
-              <Image alt="forbes-sponsor" src={SponsorForbes} />
-              <Image alt="fortune-sponsor" src={SponsorFortune} />
+              <Image alt="AbstractWaves" src={AbstractWaves} />
+              <Image alt="AbstractWaves" src={AbstractWaves} />
+              <Image alt="AbstractWaves" src={AbstractWaves} />
             </div>
           </div>
         </div>

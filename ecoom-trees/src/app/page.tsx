@@ -1,6 +1,6 @@
 "use client"
 import Navbar from "@/app/scenes/navbar";
-import Home from "@/app/scenes/home";
+import HomeLanding from "@/app/scenes/homeLanding";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/app/shared/types";
 
@@ -29,7 +29,7 @@ function Home() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <Home setSelectedPage={setSelectedPage} />
+      <HomeLanding setSelectedPage={setSelectedPage} />
     </div>
   );
 }
