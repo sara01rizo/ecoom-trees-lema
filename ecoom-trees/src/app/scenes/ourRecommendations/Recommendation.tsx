@@ -19,7 +19,7 @@ const Recommendation = ({ name, description, image, }: Props) => {
         <p className="text-2xl">{name}</p>
         <p className="mt-5">{description}</p>
       </div>
-      <Image alt={`${image}`} src={image} className="rounded"/>
+      <Image id="anchor" alt={`${image}`} src={image} className="rounded"/>
     </li>
   );
 };

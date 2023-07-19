@@ -4,6 +4,7 @@ import HomeLanding from "@/app/scenes/homeLanding";
 import Benefits from "@/app/scenes/benefits";
 import OurRecommendations from "./scenes/ourRecommendations";
 import ContactUs from "./scenes/contactUs";
+import Footer from "./scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/app/shared/types";
 
@@ -36,6 +37,7 @@ function Home() {
       <Benefits setSelectedPage={setSelectedPage} />
       <OurRecommendations setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
+      <Footer />
     </div>
   );
 }

@@ -52,7 +52,7 @@ type Props = {
 
 const OurRecommendations = ({ setSelectedPage }: Props) => {
   return (
-    <section id="ourclasses" className="w-full bg-secondary-500 py-40">
+    <section id="ourrecommendations" className="w-full bg-secondary-500 py-40">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.OurRecommendations)}
       >
@@ -77,7 +77,7 @@ const OurRecommendations = ({ setSelectedPage }: Props) => {
             </p>
           </div>
         </motion.div>
-        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden" id="anchor">
           <ul className="w-[2800px] whitespace-nowrap">
             {recommendations.map((item: RecommendationType, index) => (
               <Recommendation

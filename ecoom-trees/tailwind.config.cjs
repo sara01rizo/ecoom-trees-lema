@@ -19,11 +19,11 @@ module.exports = {
         "gray-50": "#EFE6E6",
         "gray-100": "#DFCCCC",
         "gray-500": "#5E0000",
-        "primary-100": "#1B5A7A",
+        "primary-100": "#41B9E1",
         "primary-300": "#058E96",
         "primary-500": "#F3FFB9",
         "secondary-400": "#A6ED8E",
-        "secondary-500": "#1AA59A",
+        "secondary-500": "#E1B941",
       },
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
