@@ -1,9 +1,10 @@
 import { SelectedPage, RecommendationType } from "@/app/shared/types";
-import PexelsKenStringer from "@/app/assets/PexelsKenStringer.jpg";
-import PexelsPixabay from "@/app/assets/PexelsPixabay.jpg";
-import PexelsVladChetan from "@/app/assets/PexelsVladChețan.jpg";
-import PexelsFelixMittermeier from "@/app/assets/PexelsFelixMittermeier.jpg";
-import PexelsYanKrukau from "@/app/assets/PexelsYanKrukau.jpg";
+import PexelsKenStringer from "@/app/assets/PexelsKenStringer.png";
+import PexelsPixabay from "@/app/assets/PexelsPixabay.png";
+import PexelsOrestSv from "@/app/assets/PexelsOrestSv.png";
+import PexelsFelixMittermeier from "@/app/assets/PexelsFelixMittermeier.png";
+import PexelsMitchellHenderson from "@/app/assets/PexelsMitchellHenderson.png";
+import PexelsMauricioArtieda from "@/app/assets/PexelsMauricioArtieda.png";
 import { motion } from "framer-motion";
 import HText from "@/app/shared/HText";
 import Image from "next/image";
@@ -19,23 +20,23 @@ const recommendations: Array<RecommendationType> = [
   },
   {
     name: "Species of Trees",
-    image: PexelsYanKrukau,
+    image: PexelsMauricioArtieda,
   },
   {
     name: "Identifying Trees Species",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: PexelsPixabay,
+    image: PexelsOrestSv,
   },
   {
     name: "Days Off in Trees",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: PexelsVladChetan,
+    image: PexelsPixabay,
   },
   {
     name: "Find more Fun Facts About Trees",
-    image: PexelsKenStringer,
+    image: PexelsMitchellHenderson,
   },
   {
     name: "Famous Trees",
@@ -69,9 +70,9 @@ const OurRecommendations = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR RECOMMENDATIONS</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
+              Amet semper tortor facilisis metus nibh. Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
               tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
+              facilisi. Rhoncus sit
               enim mattis odio in risus nunc.
             </p>
           </div>
