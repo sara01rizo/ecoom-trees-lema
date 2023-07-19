@@ -1,3 +1,5 @@
+import * as React from "react";
+
 export enum SelectedPage {
   Home = "home",
   Benefits = "benefits",
