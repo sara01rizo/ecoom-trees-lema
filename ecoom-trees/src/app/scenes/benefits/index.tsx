@@ -155,6 +155,17 @@ const Benefits = ({ setSelectedPage }: Props) => {
             </div>
           </div>
         </div>
+        {/* GRAPHIC */}
+        <div className="relative">
+          <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+            <Image
+              className="mx-auto"
+              alt="Sparkles"
+              src={Sparkles}
+            />
+          </div>
+        </div>
+
       </motion.div>
     </section>
   );
