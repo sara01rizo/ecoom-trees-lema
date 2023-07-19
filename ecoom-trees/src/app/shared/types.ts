@@ -1,4 +1,5 @@
 import * as React from "react";
+import { StaticImageData } from "next/image"
 
 export enum SelectedPage {
   Home = "home",
@@ -13,8 +14,8 @@ export interface BenefitType {
   description: string;
 }
 
-export interface ClassType {
+export interface RecommendationType {
   name: string;
   description?: string;
-  image: string;
+  image: string | StaticImageData;
 }
